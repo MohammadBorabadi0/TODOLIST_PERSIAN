@@ -47,13 +47,13 @@ const TodoItem = ({ item }) => {
       </div>
       <div className="flex items-center">
         <button
-          className="ml-2 p-1 text-orange-700 text-sm md:text-lg"
+          className="ml-2 p-1 text-orange-500 text-sm md:text-lg"
           onClick={handleEdit}
         >
           <FaRegEdit />
         </button>
         <button
-          className="p-1 text-red-700 text-sm md:text-lg"
+          className="p-1 text-red-500 text-sm md:text-lg"
           onClick={() => dispatch({ type: REMOVE_TASK, payload: item.id })}
         >
           <FaTrashAlt />
