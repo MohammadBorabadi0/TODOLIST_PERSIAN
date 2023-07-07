@@ -30,7 +30,7 @@ const TodoItem = ({ item }) => {
     <div
       className={`${
         item.isComplete ? "opacity-50" : ""
-      } flex justify-between items-center w-full bg-purple-200 p-2 md:p-4 mb-3 rounded-sm`}
+      } flex justify-between items-center w-full shadow-md p-2 md:p-4 mb-3 rounded-sm`}
     >
       <div className="w-full">
         <h4
